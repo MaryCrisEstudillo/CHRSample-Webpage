@@ -1,0 +1,281 @@
+$primary-color:#79c7e8;
+$text-color:#333333;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+footer{
+    background-color: $primary-color;
+    background-size: cover;
+    height: 3vw;
+    margin-top: 8vw;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding: 4vw 0vw 4vw 0vw;
+    
+}
+.navbg{
+    background-color: $primary-color;
+    background-size: cover;
+    
+    .navContainer{
+        padding:2vw 13vw 6vw 13vw;
+    .logo{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 3vw;
+        float: left;
+    }
+    .menubtn{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.7em;
+        margin: 1vw 0vw 0vw 2vw ;
+        float: right; 
+    }
+    .burgerNav{
+        height: 12vw;
+        width: 9vw;
+        margin-top: 1vw;
+        padding: 1vw 1vw 2vw 1vw;
+        display: block;
+        .bordered{
+            background-color: white;
+            width: 7vw;
+            height: 1vw;
+            margin-bottom: .5vw;
+            border-radius: 2vw;
+            
+        }
+    }
+}
+
+}
+.bodyContainer{
+    padding: 0vw 13vw 0em 13vw;
+
+    .imageContainer{
+        width: 100%;
+        img{
+            width: 100%;
+            margin-top: -7vw;
+        }
+    }
+    .titleContainer{
+        border-bottom: 8px solid $primary-color;
+        margin: 4vw 0vw 2vw 0vw;
+    }
+    .pTextContainer{
+        margin-bottom: 1.5vw;
+    }
+    .one{
+        margin-right: 3vw;
+    }
+    .pText{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.3em;
+        color: $text-color;
+        text-align: justify;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 3em;
+        color: $text-color;
+        border-left: 11px solid $primary-color;
+        margin: 0vw 0vw .2vw 0vw;
+        padding-left: .5vw;
+    }
+    a{
+        color: #006699;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.3em;
+        float:right;
+    }
+}
+
+@media only screen and (max-width: 3000px){
+    .navContainer{
+        padding:2vw 13vw 6vw 13vw;
+    .logo{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 3vw;
+        float: left;
+    }
+    .menubtn{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.7em;
+        margin: 1vw 0vw 0vw 2vw ;
+        float: right; 
+    }
+    .burgerNav{
+        height: 12vw;
+        width: 9vw;
+        float: right;
+        margin-top: -1vw;
+        padding: 1vw 1vw 2vw 1vw;
+        visibility: hidden;
+        .bordered{
+            background-color: white;
+            width: 5vw;
+            height: .8vw;
+            margin-bottom: 1vw;
+            border-radius: 2vw;
+            
+        }
+    }
+}
+#imageHover{
+    width: 1vw;
+    margin: 0vw .5vw -.25vw 0vw ;
+
+}
+}
+@media only screen and (max-width: 1250px){
+    .navContainer{
+        padding: 3vw 12vw 8vw 12vw !important;
+        height: 2vw;
+        .logo{
+        font-size: 6vw !important;
+        float: left;
+    }
+        .menubtn{
+            display: none;
+    }
+    .burgerNav{
+        height: 12vw;
+        width:9vw;
+        float: right;
+        top: 2vw;
+        padding: 3vw 1vw 2vw 1vw;
+        visibility: visible;
+        .bordered{
+            background-color: white;
+            width: 7vw;
+            height: 1vw;
+            margin-bottom: 1vw;
+            border-radius: 2vw;
+            
+        }
+    }
+    
+    }
+    .bodyContainer{
+        padding: 0vw 13vw 0em 13vw;
+    
+        .imageContainer{
+            width: 100%;
+            img{
+                width: 100%;
+                margin-top: -3vw;
+            }
+            #imageHover{
+                width: 7vw;
+                margin: 0vw .5vw -.25vw 0vw ;
+                font-size:1em ;
+            
+            }
+        }
+
+}
+}
+
+@media only screen and (max-width: 600px){
+    .navContainer{
+        padding: 4vw 12vw 8vw 4vw !important;
+        height: 4vw;
+        width: 90%;
+        .logo{
+        font-size: 2em !important;
+        float: left;
+    }
+        .menubtn{
+            display: none;
+    }
+    .burgerNav{
+        height: 8vw;
+        width: 12vw;
+        visibility: visible;
+        .bordered{
+            background-color: white;
+            width: 8vw !important;
+            height: 1vw !important;
+            margin-bottom: 1vw;
+            border-radius: 2vw;
+            
+        }
+    }
+    }
+    .bodyContainer{
+        padding: 1vw 4vw 0vw 4vw;
+        .imageContainer{
+            width: 100%;
+            img{
+                width: 180vw;
+                margin-top: 2vw;
+            }
+        }
+        .titleContainer{
+            border-bottom: 8px solid $primary-color;
+            margin: 4vw 0vw 2vw 0vw;
+        }
+        .pTextContainer{
+            margin-bottom: 1.5vw;
+        }
+        .one{
+            margin-right: 4vw;
+        }
+        .pText{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1em;
+            color: $text-color;
+        }
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+            font-size: 2em;
+            color: $text-color;
+            border-left: 11px solid $primary-color;
+            margin: 0vw 0vw 1vw 0vw;
+            padding-left: .5vw;
+        }
+    }
+    footer{
+        background-color: $primary-color;
+        background-size: cover;
+        height: 10vw;
+        margin-top: 8vw;
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        padding: 4vw 1vw 4vw 1vw;
+        
+    }
+
+    #imageHover{
+        width: 5vw;
+        margin: 0vw .5vw -.25vw 0vw ;
+        font-size:1em ;
+    
+    }
+}

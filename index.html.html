@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="codingTest.css">
+    <title>CHRSAMPLE</title>
+</head>
+<nav class="navbg">
+    <div class="navContainer">
+        <span class="logo">CHRSAMPLE</span>
+        <span class="menubtn btn1">NEWS</span>
+        <span class="menubtn">SERVICE</span>
+        <span class="menubtn">COMPANY</span>
+        <span class="menubtn">CONTACT</span>
+        <span class="burgerNav">
+            <div class="bordered"></div>
+            <div class="bordered"></div>
+            <div class="bordered"></div>
+        </span>
+    </div>
+
+</nav>
+<body>
+    <div class="bodyContainer">
+        <section class="imageContainer">
+            <img src="images/keyvisual.png" alt="colors">
+        </section>
+        <section>
+                <div class="titleContainer">
+                    <h1>SAMPLE1</h1>
+                </div>
+                <p class="pText">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+        </section>
+        <section>
+            <div>
+                <div class="titleContainer">
+                    <h1>NEWS</h1>
+                </div>
+                <div class="pTextContainer">
+                    <span class="pText one">2013/05/01</span>
+                    <span class="pText">Please feel free to send us any additional dummy texts.</span>
+                </div>
+                <div class="pTextContainer">
+                    <span class="pText one">2013/04/30</span>
+                    <span class="pText">Please feel free to send us any additional dummy texts.</span>
+                </div>
+                <div class="pTextContainer">
+                    <span class="pText one">2013/04/20</span>
+                    <span class="pText">Please feel free to send us any additional dummy texts.</span>
+                </div>
+                <div class="pTextContainer">
+                    <span class="pText one">2013/04/11</span>
+                    <span class="pText">Please feel free to send us any additional dummy texts.</span>
+                </div>
+                <div class="pTextContainer">
+                    <span class="pText one">2013/04/10</span>
+                    <span class="pText">Website OPEN.</span>
+                </div>
+                <a id="hover" href="https://www.creativehope.co.jp/ph/company/"><img id="imageHover" src="images/image_link.png" alt=""> More Information</a>
+            </div>
+            <!-- src="images/image_link_hover.png" -->
+        </section>
+    </div>
+    <footer>
+        <p>Copyright (C) 2013 CRHSAMPLE All Rights Reserved</p>
+    </footer>
+</body>
+<script>
+let image = document.getElementById("imageHover");
+let text = document.getElementById("hover");
+
+image.addEventListener('mouseover', function(){
+  image.src = "images/image_link_hover.png";
+  image.style.width = "7vw";
+  image.style.height = "2vw";
+})
+image.addEventListener('mouseout', function(){
+    image.src = "images/image_link.png";
+    image.style.width = "7vw";
+    image.style.height = "2vw";
+  })
+
+</script>
+</html>
