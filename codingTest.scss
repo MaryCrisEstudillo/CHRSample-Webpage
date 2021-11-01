@@ -105,6 +105,13 @@ footer{
         font-size: 1.3em;
         float:right;
     }
+
+
+    .image{
+        width: 1.5vw;
+        margin: 0vw .5vw -.25vw 0vw ;
+    
+    }
 }
 
 @media only screen and (max-width: 3000px){
@@ -142,11 +149,13 @@ footer{
         }
     }
 }
-#imageHover{
-    width: 1vw;
-    margin: 0vw .5vw -.25vw 0vw ;
 
 }
+.image{
+    width: 2vw;
+    height: 1vw;
+    margin: 0vw .5vw -.25vw 0vw ;
+
 }
 @media only screen and (max-width: 1250px){
     .navContainer{
@@ -186,10 +195,11 @@ footer{
                 width: 100%;
                 margin-top: -3vw;
             }
-            #imageHover{
-                width: 7vw;
+            .image{
+                width: 12vw;
+                height: 10vw;
                 margin: 0vw .5vw -.25vw 0vw ;
-                font-size:1em ;
+                font-size:1vw ;
             
             }
         }
@@ -215,8 +225,8 @@ footer{
         visibility: visible;
         .bordered{
             background-color: white;
-            width: 8vw !important;
-            height: 1vw !important;
+            width: 4vw !important;
+            height: 6vw !important;
             margin-bottom: 1vw;
             border-radius: 2vw;
             
@@ -272,10 +282,10 @@ footer{
         
     }
 
-    #imageHover{
-        width: 5vw;
+    .image{
+        height: 5vw;
+        width: 15vw;
         margin: 0vw .5vw -.25vw 0vw ;
-        font-size:1em ;
-    
+        font-size:.8em ;
     }
 }
