@@ -98,20 +98,25 @@ footer{
         margin: 0vw 0vw .2vw 0vw;
         padding-left: .5vw;
     }
-    a{
+    .linkcontainer{
+        margin-left: 55vw;
+
+    #hover{
         color: #006699;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
         font-size: 1.3em;
-        float:right;
+        // margin: -2vw 0vw -.25vw 50vw ;
+        // float: right;
+
     }
 
 
     .image{
         width: 1.5vw;
-        margin: 0vw .5vw -.25vw 0vw ;
-    
+        // margin: 0vw 20vw -.25vw 57vw ;
     }
+}
 }
 
 @media only screen and (max-width: 3000px){
@@ -151,9 +156,9 @@ footer{
 }
 
 }
+
 .image{
-    width: 2vw;
-    height: 1vw;
+    width: 1vw;
     margin: 0vw .5vw -.25vw 0vw ;
 
 }
@@ -195,15 +200,28 @@ footer{
                 width: 100%;
                 margin-top: -3vw;
             }
-            .image{
-                width: 12vw;
-                height: 10vw;
-                margin: 0vw .5vw -.25vw 0vw ;
-                font-size:1vw ;
-            
-            }
-        }
+        
+    
+    }
+    .linkcontainer{
+        margin-left: 50vw;
+    #hover{
+        color: #006699;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.3em;
+        width: 40vw;
+        // margin: -2vw 0vw -.25vw 50vw ;
+        // float: right;
 
+    }
+
+
+    .image{
+        width: 1.5vw;
+        // margin: 0vw 20vw -.25vw 57vw ;
+    }
+}
 }
 }
 
@@ -267,6 +285,27 @@ footer{
             margin: 0vw 0vw 1vw 0vw;
             padding-left: .5vw;
         }
+        .linkcontainer{
+            margin-left: 30vw;
+            padding-left: 10vw;
+            
+        #hover{
+            color: #006699;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1.3em;
+            width: 40vw;
+            // margin: -2vw 0vw -.25vw 50vw ;
+            // float: right;
+    
+        }
+    
+    
+        .image{
+            width: 3.5vw;
+            // margin: 0vw 20vw -.25vw 57vw ;
+        }
+    }
     }
     footer{
         background-color: $primary-color;
@@ -282,10 +321,4 @@ footer{
         
     }
 
-    .image{
-        height: 5vw;
-        width: 15vw;
-        margin: 0vw .5vw -.25vw 0vw ;
-        font-size:.8em ;
-    }
 }

@@ -108,17 +108,19 @@ footer {
   padding-left: .5vw;
 }
 
-.bodyContainer a {
+.bodyContainer .linkcontainer {
+  margin-left: 55vw;
+}
+
+.bodyContainer .linkcontainer #hover {
   color: #006699;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  float: right;
 }
 
-.bodyContainer .image {
+.bodyContainer .linkcontainer .image {
   width: 1.5vw;
-  margin: 0vw .5vw -.25vw 0vw;
 }
 
 @media only screen and (max-width: 3000px) {
@@ -158,8 +160,7 @@ footer {
 }
 
 .image {
-  width: 2vw;
-  height: 1vw;
+  width: 1vw;
   margin: 0vw .5vw -.25vw 0vw;
 }
 
@@ -200,11 +201,18 @@ footer {
     width: 100%;
     margin-top: -3vw;
   }
-  .bodyContainer .imageContainer .image {
-    width: 12vw;
-    height: 10vw;
-    margin: 0vw .5vw -.25vw 0vw;
-    font-size: 1vw;
+  .bodyContainer .linkcontainer {
+    margin-left: 50vw;
+  }
+  .bodyContainer .linkcontainer #hover {
+    color: #006699;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    width: 40vw;
+  }
+  .bodyContainer .linkcontainer .image {
+    width: 1.5vw;
   }
 }
 
@@ -268,6 +276,20 @@ footer {
     margin: 0vw 0vw 1vw 0vw;
     padding-left: .5vw;
   }
+  .bodyContainer .linkcontainer {
+    margin-left: 30vw;
+    padding-left: 10vw;
+  }
+  .bodyContainer .linkcontainer #hover {
+    color: #006699;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    width: 40vw;
+  }
+  .bodyContainer .linkcontainer .image {
+    width: 3.5vw;
+  }
   footer {
     background-color: #79c7e8;
     background-size: cover;
@@ -279,12 +301,6 @@ footer {
     font-weight: 500;
     font-size: 1em;
     padding: 4vw 1vw 4vw 1vw;
-  }
-  .image {
-    height: 5vw;
-    width: 15vw;
-    margin: 0vw .5vw -.25vw 0vw;
-    font-size: .8em;
   }
 }
 /*# sourceMappingURL=codingTest.css.map */
